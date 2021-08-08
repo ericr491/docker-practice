@@ -1,1 +1,3 @@
+docker image rm nginx
+
 REPOSITORY   TAG       IMAGE ID   CREATED   SIZE

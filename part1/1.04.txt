@@ -1,0 +1,6 @@
+docker run -d devopsdockeruh/simple-web-service:ubuntu
+docker exec -it $container_id bash
+apt-get update && apt-get upgrade
+apt-get install curl
+Ctrl + Z & Ctrl + C to exit
+docker exec -it $container_id sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'

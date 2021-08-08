@@ -1,0 +1,4 @@
+docker kill $container_id1 $container_id2 $container_id3
+docker rm $container_id1 $container_id2 $container_id3
+
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES

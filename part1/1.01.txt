@@ -1,3 +1,8 @@
+docker run -d nginx
+docker run -d nginx
+docker run -d nginx
+docker kill $container_id
+
 CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES
 06bb298bfa17   nginx     "/docker-entrypoint.…"   5 seconds ago   Up 3 seconds               80/tcp    cranky_turing
 90acbecb4632   nginx     "/docker-entrypoint.…"   3 minutes ago   Exited (0) 2 minutes ago             frosty_neumann
